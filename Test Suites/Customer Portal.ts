@@ -4,7 +4,7 @@
    <name>Customer Portal</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-05-07T14:39:07</lastRun>
+   <lastRun>2018-05-07T17:05:54</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -28,5 +28,17 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Move to Start Page</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>899e8c15-aa59-496f-ad77-47265ac90fa5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Municipality dropdown field-start page</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>436dc18e-14a6-4c29-b628-24a0a1e72f06</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Select Municiplality from Start page</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
