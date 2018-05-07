@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description></description>
+   <name>AHUS-KATALON</name>
+   <tag></tag>
+   <UUID>590fba56-6d4c-4f08-94fa-4f73831ac6ac</UUID>
+   <migratedVersion>5.4.0</migratedVersion>
+   <pageLoadTimeout>0</pageLoadTimeout>
+</Project>

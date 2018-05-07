@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_password</name>
+   <tag></tag>
+   <elementGuidId>8ff9a101-0919-49df-90b4-a42a02bd8b8f</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>derome-textbox</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>password</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>password</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;site&quot;]/div[@class=&quot;site-content&quot;]/main[@class=&quot;main-content&quot;]/div[@class=&quot;main-content__inner&quot;]/div[@class=&quot;p-infopage&quot;]/div[@class=&quot;p-infopage__content&quot;]/div[@class=&quot;block-list&quot;]/div[@class=&quot;block&quot;]/div[@class=&quot;infoblock infoblock--extra-padding&quot;]/form[@class=&quot;js-account-form&quot;]/div[@class=&quot;js-content-switch&quot;]/div[@class=&quot;infoblock__content&quot;]/div[@class=&quot;derome-formitem derome-formitem--split&quot;]/div[@class=&quot;derome-formitem&quot;]/input[@class=&quot;derome-textbox&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>
