@@ -37,7 +37,7 @@ WebUI.click(findTestObject('Customer registration from HB/a_Registrera dig'))
 
 WebUI.click(findTestObject('Customer registration from HB/input_firstName'))
 
-WebUI.setText(findTestObject('Customer registration from HB/input_firstName'), 'Test')
+WebUI.setText(findTestObject('Customer registration from HB/input_firstName'), 'test2')
 
 WebUI.setText(findTestObject('Customer registration from HB/input_lastName'), 'User')
 
