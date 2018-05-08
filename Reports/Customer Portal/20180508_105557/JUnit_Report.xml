@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Customer Portal" time="57" tests="7" failures="0" errors="0">
+   <testsuite name="Customer Portal" tests="7" failures="0" errors="0" time="57" timestamp="2018-05-08 10:55:58" hostname="Neethu.v - Neethu-v.Bridgeglobal.local" id="Test Suites/Customer Portal">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Ahus-Katalon-Git\\Reports\\Customer Portal\\20180508_105557"/>
+         <property name="logFiles" value="E:\\Ahus-Katalon-Git\\Reports\\Customer Portal\\20180508_105557\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Neethu.v - Neethu-v.Bridgeglobal.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Firefox 56.0"/>
+         <property name="hostAddress" value="172.16.12.25"/>
+         <property name="sessionId" value="4171255b-baa2-4530-bdf6-3b3a619dc82f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Start page" classname="Test Cases/Start page" status="PASSED">
+         <system-out><![CDATA[2018-05-08 10:55:59 - [TEST_CASE][PASSED] - Test Cases/Start page: Test Cases/Start page
+
+2018-05-08 10:55:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-08 10:56:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-08 10:56:08 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-08 10:56:09 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-08 10:56:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://ahusonline.utv.derome.se/' successfully
+
+2018-05-08 10:56:24 - [MESSAGE][PASSED] - Navigate to 'http://ahusonline.utv.derome.se/' successfully
+
+2018-05-08 10:56:24 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-08 10:56:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-08 10:56:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer registration from HB/Close - strt page popup' is clicked on
+
+2018-05-08 10:56:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer registration from HB/Close - strt page popup' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer-Login" classname="Test Cases/Customer-Login" status="PASSED">
+         <system-out><![CDATA[2018-05-08 10:56:24 - [TEST_CASE][PASSED] - Test Cases/Customer-Login: Test Cases/Customer-Login
+
+2018-05-08 10:56:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer registration from HB/a_Login' is clicked on
+
+2018-05-08 10:56:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer registration from HB/a_Login' is clicked on
+
+2018-05-08 10:56:26 - [TEST_STEP][PASSED] - setText: Text 'neethu@ahus.com' is set on object 'Object Repository/Login-username'
+
+2018-05-08 10:56:30 - [MESSAGE][PASSED] - Text 'neethu@ahus.com' is set on object 'Object Repository/Login-username'
+
+2018-05-08 10:56:30 - [TEST_STEP][PASSED] - setText: Text '1234' is set on object 'Object Repository/Login-password'
+
+2018-05-08 10:56:30 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/Login-password'
+
+2018-05-08 10:56:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/button_Logga in' is clicked on
+
+2018-05-08 10:56:30 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Logga in' is clicked on
+
+2018-05-08 10:56:30 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-08 10:56:30 - [MESSAGE][PASSED] - Wait for page load successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Move to Start Page" classname="Test Cases/Move to Start Page" status="PASSED">
+         <system-out><![CDATA[2018-05-08 10:56:30 - [TEST_CASE][PASSED] - Test Cases/Move to Start Page: Test Cases/Move to Start Page
+
+2018-05-08 10:56:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Move to home page from logged in' is clicked on
+
+2018-05-08 10:56:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Move to home page from logged in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Municipality dropdown field-start page" classname="Test Cases/Municipality dropdown field-start page" status="PASSED">
+         <system-out><![CDATA[2018-05-08 10:56:31 - [TEST_CASE][PASSED] - Test Cases/Municipality dropdown field-start page: Test Cases/Municipality dropdown field-start page
+
+2018-05-08 10:56:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Start page elements/Municipality select field' is clicked on
+
+2018-05-08 10:56:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Start page elements/Municipality select field' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Select Municiplality from Start page" classname="Test Cases/Select Municiplality from Start page" status="PASSED">
+         <system-out><![CDATA[2018-05-08 10:56:33 - [TEST_CASE][PASSED] - Test Cases/Select Municiplality from Start page: Test Cases/Select Municiplality from Start page
+
+2018-05-08 10:56:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Start page elements/Select Municipality-start page' is clicked on
+
+2018-05-08 10:56:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Start page elements/Select Municipality-start page' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Select House From House Listing Page - HB" classname="Test Cases/Select House From House Listing Page - HB" status="PASSED">
+         <system-out><![CDATA[2018-05-08 10:56:33 - [TEST_CASE][PASSED] - Test Cases/Select House From House Listing Page - HB: Test Cases/Select House From House Listing Page - HB
+
+2018-05-08 10:56:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/House Listing Page/Select House from House listing' is clicked on
+
+2018-05-08 10:56:53 - [MESSAGE][PASSED] - Object: 'Object Repository/House Listing Page/Select House from House listing' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Make Changes in Configuration - Customer" classname="Test Cases/Make Changes in Configuration - Customer" status="PASSED">
+         <system-out><![CDATA[2018-05-08 10:56:53 - [TEST_CASE][PASSED] - Test Cases/Make Changes in Configuration - Customer: Test Cases/Make Changes in Configuration - Customer
+
+2018-05-08 10:56:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Make Changes in Configuration/Configuration change - utvandiga val' is clicked on
+
+2018-05-08 10:56:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Changes in Configuration/Configuration change - utvandiga val' is clicked on
+
+2018-05-08 10:56:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Make Changes in Configuration/Select KOK option From Configuration' is clicked on
+
+2018-05-08 10:56:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Changes in Configuration/Select KOK option From Configuration' is clicked on
+
+2018-05-08 10:56:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Make Changes in Configuration/Select INGET KOK from KOK tab' is clicked on
+
+2018-05-08 10:56:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Changes in Configuration/Select INGET KOK from KOK tab' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-08 10:55:58 - [TEST_SUITE][PASSED] - Customer Portal: Test Cases/Make Changes in Configuration - Customer]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

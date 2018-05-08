@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Customer Portal,Firefox 56.0,,2018-05-07 17:47:20,2018-05-07 17:47:55,35.478s,PASSED
+,,,,,,
+Test Cases/Start page,Firefox 56.0,,2018-05-07 17:47:20,2018-05-07 17:47:49,28.653s,PASSED
+openBrowser,Firefox 56.0,,2018-05-07 17:47:20,2018-05-07 17:47:30,9.992s,PASSED
+maximizeWindow,Firefox 56.0,,2018-05-07 17:47:30,2018-05-07 17:47:30,0.081s,PASSED
+navigateToUrl,Firefox 56.0,,2018-05-07 17:47:30,2018-05-07 17:47:48,17.928s,PASSED
+waitForPageLoad,Firefox 56.0,,2018-05-07 17:47:48,2018-05-07 17:47:48,0.065s,PASSED
+click,Firefox 56.0,,2018-05-07 17:47:48,2018-05-07 17:47:49,0.333s,PASSED
+,,,,,,
+Test Cases/Customer-Login,Firefox 56.0,,2018-05-07 17:47:49,2018-05-07 17:47:53,4.254s,PASSED
+click,Firefox 56.0,,2018-05-07 17:47:49,2018-05-07 17:47:50,1.330s,PASSED
+setText,Firefox 56.0,,2018-05-07 17:47:50,2018-05-07 17:47:52,2.066s,PASSED
+setText,Firefox 56.0,,2018-05-07 17:47:52,2018-05-07 17:47:53,0.471s,PASSED
+click,Firefox 56.0,,2018-05-07 17:47:53,2018-05-07 17:47:53,0.208s,PASSED
+waitForPageLoad,Firefox 56.0,,2018-05-07 17:47:53,2018-05-07 17:47:53,0.027s,PASSED
+,,,,,,
+Test Cases/Move to Start Page,Firefox 56.0,,2018-05-07 17:47:53,2018-05-07 17:47:53,0.275s,PASSED
+click,Firefox 56.0,,2018-05-07 17:47:53,2018-05-07 17:47:53,0.185s,PASSED
+,,,,,,
+Test Cases/Municipality dropdown field-start page,Firefox 56.0,,2018-05-07 17:47:53,2018-05-07 17:47:55,1.650s,PASSED
+click,Firefox 56.0,,2018-05-07 17:47:53,2018-05-07 17:47:55,1.572s,PASSED
+,,,,,,
+Test Cases/Select Municiplality from Start page,Firefox 56.0,,2018-05-07 17:47:55,2018-05-07 17:47:55,0.324s,PASSED
+click,Firefox 56.0,,2018-05-07 17:47:55,2018-05-07 17:47:55,0.249s,PASSED

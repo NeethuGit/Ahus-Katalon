@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Customer Portal,Firefox 56.0,,2018-05-08 12:01:57,2018-05-08 12:03:36,1m - 39.665s,FAILED
+,,,,,,
+Test Cases/Clear cache,Firefox 56.0,,2018-05-08 12:01:57,2018-05-08 12:01:57,0.482s,PASSED
+deleteAllCookies,Firefox 56.0,,2018-05-08 12:01:57,2018-05-08 12:01:57,0.260s,PASSED
+,,,,,,
+Test Cases/Start page,Firefox 56.0,,2018-05-08 12:01:57,2018-05-08 12:02:32,34.473s,PASSED
+openBrowser,Firefox 56.0,,2018-05-08 12:01:57,2018-05-08 12:02:08,10.734s,PASSED
+maximizeWindow,Firefox 56.0,,2018-05-08 12:02:08,2018-05-08 12:02:08,0.047s,PASSED
+navigateToUrl,Firefox 56.0,,2018-05-08 12:02:08,2018-05-08 12:02:32,23.256s,PASSED
+waitForPageLoad,Firefox 56.0,,2018-05-08 12:02:32,2018-05-08 12:02:32,0.067s,PASSED
+click,Firefox 56.0,,2018-05-08 12:02:32,2018-05-08 12:02:32,0.236s,PASSED
+,,,,,,
+Test Cases/Customer-Login,Firefox 56.0,,2018-05-08 12:02:32,2018-05-08 12:02:36,4.630s,PASSED
+click,Firefox 56.0,,2018-05-08 12:02:32,2018-05-08 12:02:34,1.848s,PASSED
+setText,Firefox 56.0,,2018-05-08 12:02:34,2018-05-08 12:02:36,2.103s,PASSED
+setText,Firefox 56.0,,2018-05-08 12:02:36,2018-05-08 12:02:36,0.416s,PASSED
+click,Firefox 56.0,,2018-05-08 12:02:36,2018-05-08 12:02:36,0.149s,PASSED
+waitForPageLoad,Firefox 56.0,,2018-05-08 12:02:36,2018-05-08 12:02:36,0.021s,PASSED
+,,,,,,
+Test Cases/Move to Start Page,Firefox 56.0,,2018-05-08 12:02:36,2018-05-08 12:02:37,0.260s,PASSED
+click,Firefox 56.0,,2018-05-08 12:02:37,2018-05-08 12:02:37,0.181s,PASSED
+,,,,,,
+Test Cases/Municipality dropdown field-start page,Firefox 56.0,,2018-05-08 12:02:37,2018-05-08 12:02:39,1.820s,PASSED
+click,Firefox 56.0,,2018-05-08 12:02:37,2018-05-08 12:02:39,1.739s,PASSED
+,,,,,,
+Test Cases/Select Municiplality from Start page,Firefox 56.0,,2018-05-08 12:02:39,2018-05-08 12:02:39,0.261s,PASSED
+click,Firefox 56.0,,2018-05-08 12:02:39,2018-05-08 12:02:39,0.194s,PASSED
+,,,,,,
+Test Cases/Select House From House Listing Page - HB,Firefox 56.0,,2018-05-08 12:02:39,2018-05-08 12:02:59,19.688s,PASSED
+click,Firefox 56.0,,2018-05-08 12:02:39,2018-05-08 12:02:59,19.601s,PASSED
+,,,,,,
+Test Cases/Make Changes in Configuration - Customer,Firefox 56.0,,2018-05-08 12:02:59,2018-05-08 12:03:02,3.069s,PASSED
+click,Firefox 56.0,,2018-05-08 12:02:59,2018-05-08 12:02:59,0.199s,PASSED
+click,Firefox 56.0,,2018-05-08 12:02:59,2018-05-08 12:03:01,2.569s,PASSED
+click,Firefox 56.0,,2018-05-08 12:03:01,2018-05-08 12:03:02,0.210s,PASSED
+,,,,,,
+Test Cases/Save Configuration,Firefox 56.0,,2018-05-08 12:03:02,2018-05-08 12:03:36,34.691s,FAILED
+click,Firefox 56.0,,2018-05-08 12:03:02,2018-05-08 12:03:36,34.612s,FAILED
