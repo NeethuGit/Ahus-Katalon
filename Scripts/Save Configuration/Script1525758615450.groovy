@@ -19,5 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.waitForPageLoad(30)
+
+WebUI.waitForElementPresent(findTestObject('Save Configuration/Save Configuration - Customer'), 30)
+
 WebUI.click(findTestObject('Save Configuration/Save Configuration - Customer'))
 

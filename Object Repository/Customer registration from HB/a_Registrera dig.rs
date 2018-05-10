@@ -4,10 +4,19 @@
    <name>a_Registrera dig</name>
    <tag></tag>
    <elementGuidId>82c43fcd-3f97-44cd-b156-daec613fc459</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@class=&quot;js-account-form&quot;]//a[@class=&quot;infoblock__button infoblock__button--wide&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -21,7 +30,7 @@
       <value>infoblock__button infoblock__button--wide js-accountcreate-toggle</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
