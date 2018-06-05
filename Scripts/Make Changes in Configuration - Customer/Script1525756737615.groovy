@@ -21,7 +21,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Make Changes in Configuration/Configuration change - utvandiga val'))
 
-WebUI.click(findTestObject('Make Changes in Configuration/Select KOK option From Configuration'))
+WebUI.getText(findTestObject('Make Changes in Configuration/Configuration change - utvandiga val'))
 
-WebUI.click(findTestObject('Make Changes in Configuration/Select INGET KOK from KOK tab'))
+WebUI.click(findTestObject('Make Changes in Configuration/Select products from categories'))
+
+WebUI.getText(findTestObject('Make Changes in Configuration/Select products from categories'))
 

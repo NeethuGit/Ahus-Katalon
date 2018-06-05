@@ -4,7 +4,17 @@
    <name>Configuration change - utvandiga val</name>
    <tag></tag>
    <elementGuidId>b121e0aa-6996-4e45-9c36-1bdfcfbf084a</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[contains(.,'         Vindskivor och foder              ')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@href = '#' and (text() = '         Vindskivor och foder              ' or . = '         Vindskivor och foder              ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

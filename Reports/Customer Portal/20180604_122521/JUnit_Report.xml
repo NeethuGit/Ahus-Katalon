@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Customer Portal" time="173" tests="12" failures="3" errors="0">
+   <testsuite name="Customer Portal" tests="12" failures="3" errors="0" time="173" timestamp="2018-06-04 12:54:20" hostname="Neethu.v - Neethu-v.Bridgeglobal.local" id="Test Suites/Customer Portal">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Ahus-Katalon-Git\\Reports\\Customer Portal\\20180604_122521"/>
+         <property name="logFiles" value="E:\\Ahus-Katalon-Git\\Reports\\Customer Portal\\20180604_122521\\execution0.log"/>
+         <property name="attachments" value="E:\\Ahus-Katalon-Git\\Reports\\Customer Portal\\20180604_122521\\1528097126796.png, E:\\Ahus-Katalon-Git\\Reports\\Customer Portal\\20180604_122521\\1528097166700.png, E:\\Ahus-Katalon-Git\\Reports\\Customer Portal\\20180604_122521\\1528097201146.png"/>
+         <property name="hostName" value="Neethu.v - Neethu-v.Bridgeglobal.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Firefox 56.0"/>
+         <property name="hostAddress" value="172.16.12.46"/>
+         <property name="sessionId" value="45f61f7b-72fa-49be-9e1d-f5d6d70a819d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Clear cache" classname="Test Cases/Clear cache" status="PASSED">
+         <system-out><![CDATA[2018-06-04 12:54:21 - [TEST_CASE][PASSED] - Test Cases/Clear cache: Test Cases/Clear cache
+
+2018-06-04 12:54:21 - [TEST_STEP][PASSED] - deleteAllCookies: Delete all cookies successfully
+
+2018-06-04 12:54:21 - [MESSAGE][WARNING] - Cannot delete cookies because browser is closed
+
+2018-06-04 12:54:22 - [MESSAGE][PASSED] - Delete all cookies successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Start page" classname="Test Cases/Start page" status="PASSED">
+         <system-out><![CDATA[2018-06-04 12:54:22 - [TEST_CASE][PASSED] - Test Cases/Start page: Test Cases/Start page
+
+2018-06-04 12:54:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-04 12:54:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-04 12:54:34 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-04 12:54:34 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-04 12:54:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://ahusonline.utv.derome.se/' successfully
+
+2018-06-04 12:54:54 - [MESSAGE][PASSED] - Navigate to 'http://ahusonline.utv.derome.se/' successfully
+
+2018-06-04 12:54:54 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Element in start page' is visible
+
+2018-06-04 12:54:55 - [MESSAGE][PASSED] - Object 'Object Repository/Element in start page' is visible
+
+2018-06-04 12:54:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer registration from HB/Close - strt page popup' is clicked on
+
+2018-06-04 12:54:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer registration from HB/Close - strt page popup' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer-Login" classname="Test Cases/Customer-Login" status="PASSED">
+         <system-out><![CDATA[2018-06-04 12:54:56 - [TEST_CASE][PASSED] - Test Cases/Customer-Login: Test Cases/Customer-Login
+
+2018-06-04 12:54:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer registration from HB/a_Login' is clicked on
+
+2018-06-04 12:54:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer registration from HB/a_Login' is clicked on
+
+2018-06-04 12:54:59 - [TEST_STEP][PASSED] - setText: Text 'test@spara.com' is set on object 'Object Repository/Login-username'
+
+2018-06-04 12:55:02 - [MESSAGE][PASSED] - Text 'test@spara.com' is set on object 'Object Repository/Login-username'
+
+2018-06-04 12:55:02 - [TEST_STEP][PASSED] - setText: Text '1234' is set on object 'Object Repository/Login-password'
+
+2018-06-04 12:55:02 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/Login-password'
+
+2018-06-04 12:55:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/button_Logga in' is clicked on
+
+2018-06-04 12:55:03 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Logga in' is clicked on
+
+2018-06-04 12:55:03 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-06-04 12:55:04 - [MESSAGE][PASSED] - Wait for page load successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Move to Start Page" classname="Test Cases/Move to Start Page" status="PASSED">
+         <system-out><![CDATA[2018-06-04 12:55:04 - [TEST_CASE][PASSED] - Test Cases/Move to Start Page: Test Cases/Move to Start Page
+
+2018-06-04 12:55:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Move to home page from logged in' is clicked on
+
+2018-06-04 12:55:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Move to home page from logged in' is clicked on
+
+2018-06-04 12:55:05 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Element after login from start page' is visible
+
+2018-06-04 12:55:06 - [MESSAGE][PASSED] - Object 'Object Repository/Element after login from start page' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Municipality dropdown field-start page" classname="Test Cases/Municipality dropdown field-start page" status="PASSED">
+         <system-out><![CDATA[2018-06-04 12:55:06 - [TEST_CASE][PASSED] - Test Cases/Municipality dropdown field-start page: Test Cases/Municipality dropdown field-start page
+
+2018-06-04 12:55:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Start page elements/Municipality select field' is clicked on
+
+2018-06-04 12:55:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Start page elements/Municipality select field' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Select Municiplality from Start page" classname="Test Cases/Select Municiplality from Start page" status="PASSED">
+         <system-out><![CDATA[2018-06-04 12:55:07 - [TEST_CASE][PASSED] - Test Cases/Select Municiplality from Start page: Test Cases/Select Municiplality from Start page
+
+2018-06-04 12:55:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Start page elements/Select Municipality-start page' is clicked on
+
+2018-06-04 12:55:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Start page elements/Select Municipality-start page' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Select House From House Listing Page - HB" classname="Test Cases/Select House From House Listing Page - HB" status="PASSED">
+         <system-out><![CDATA[2018-06-04 12:55:07 - [TEST_CASE][PASSED] - Test Cases/Select House From House Listing Page - HB: Test Cases/Select House From House Listing Page - HB
+
+2018-06-04 12:55:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/House Listing Page/Select House from House listing' is clicked on
+
+2018-06-04 12:55:26 - [MESSAGE][PASSED] - Object: 'Object Repository/House Listing Page/Select House from House listing' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Make Changes in Configuration - Customer" classname="Test Cases/Make Changes in Configuration - Customer" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-06-04 12:55:26 - [TEST_CASE][FAILED] - Test Cases/Make Changes in Configuration - Customer: Test Cases/Make Changes in Configuration - Customer FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-06-04 12:55:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Make Changes in Configuration/Configuration change - utvandiga val' is clicked on
+
+2018-06-04 12:55:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Changes in Configuration/Configuration change - utvandiga val' is clicked on
+
+2018-06-04 12:55:26 - [TEST_STEP][FAILED] - click: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-06-04 12:55:26 - [MESSAGE][WARNING] - Test object with id 'Object Repository/null' does not exist
+
+2018-06-04 12:55:26 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-06-04 12:55:30 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|E:\\Ahus-Katalon-Git\\Reports\\Customer Portal\\20180604_122521\\1528097126796.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-04 12:55:26 - [TEST_CASE][FAILED] - Test Cases/Make Changes in Configuration - Customer: Test Cases/Make Changes in Configuration - Customer FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Save Configuration" classname="Test Cases/Save Configuration" status="PASSED">
+         <system-out><![CDATA[2018-06-04 12:55:30 - [TEST_CASE][PASSED] - Test Cases/Save Configuration: Test Cases/Save Configuration
+
+2018-06-04 12:55:30 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-06-04 12:55:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-04 12:55:30 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/Save Configuration/Get text From Save Configuration' is: 'Byggsats,'
+
+2018-06-04 12:55:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/Save Configuration/Get text From Save Configuration' is: 'Byggsats,'
+
+2018-06-04 12:55:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Save Configuration/span_Spara' is clicked on
+
+2018-06-04 12:55:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Save Configuration/span_Spara' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigation to Offert Popup" classname="Test Cases/Navigation to Offert Popup" status="PASSED">
+         <system-out><![CDATA[2018-06-04 12:55:31 - [TEST_CASE][PASSED] - Test Cases/Navigation to Offert Popup: Test Cases/Navigation to Offert Popup
+
+2018-06-04 12:55:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Move to Offert Popup/Offert Button Click - Offert Popup' is clicked on
+
+2018-06-04 12:55:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Move to Offert Popup/Offert Button Click - Offert Popup' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Fill into Offert Form" classname="Test Cases/Fill into Offert Form" status="PASSED">
+         <system-out><![CDATA[2018-06-04 12:55:32 - [TEST_CASE][PASSED] - Test Cases/Fill into Offert Form: Test Cases/Fill into Offert Form
+
+2018-06-04 12:55:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Fill Offert From/Construction Type RadioButton' is clicked on
+
+2018-06-04 12:55:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Fill Offert From/Construction Type RadioButton' is clicked on
+
+2018-06-04 12:55:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Fill Offert From/Know Seller Before' is clicked on
+
+2018-06-04 12:55:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Fill Offert From/Know Seller Before' is clicked on
+
+2018-06-04 12:55:33 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'neethu v' are selected in object 'Object Repository/Fill Offert From/Click on Seller selection dropdown Field' 
+
+2018-06-04 12:55:33 - [MESSAGE][PASSED] - All options with label 'neethu v' are selected in object 'Object Repository/Fill Offert From/Click on Seller selection dropdown Field' 
+
+2018-06-04 12:55:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Fill Offert From/Send Offer to Seller - Button' is clicked on
+
+2018-06-04 12:55:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Fill Offert From/Send Offer to Seller - Button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Accept OFFERTFORFRAGAN popup" classname="Test Cases/Accept OFFERTFORFRAGAN popup" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/OFFERTFORFRAGAN Popup/Okay Button From OFFERTFORFRAGAN Popup' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OFFERTFORFRAGAN Popup/Okay Button From OFFERTFORFRAGAN Popup' located by 'By.xpath: //a[(text() = 'Ok' or . = 'Ok')]' not found)"/>
+         <system-out><![CDATA[2018-06-04 12:55:34 - [TEST_CASE][FAILED] - Test Cases/Accept OFFERTFORFRAGAN popup: Test Cases/Accept OFFERTFORFRAGAN popup FAILED because (of) Unable to click on object 'Object Repository/OFFERTFORFRAGAN Popup/Okay Button From OFFERTFORFRAGAN Popup' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OFFERTFORFRAGAN Popup/Okay Button From OFFERTFORFRAGAN Popup' located by 'By.xpath: //a[(text() = 'Ok' or . = 'Ok')]' not found)
+
+2018-06-04 12:55:34 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/OFFERTFORFRAGAN Popup/Okay Button From OFFERTFORFRAGAN Popup' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OFFERTFORFRAGAN Popup/Okay Button From OFFERTFORFRAGAN Popup' located by 'By.xpath: //a[(text() = 'Ok' or . = 'Ok')]' not found)
+
+2018-06-04 12:56:07 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/OFFERTFORFRAGAN Popup/Okay Button From OFFERTFORFRAGAN Popup' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OFFERTFORFRAGAN Popup/Okay Button From OFFERTFORFRAGAN Popup' located by 'By.xpath: //a[(text() = 'Ok' or . = 'Ok')]' not found)
+[[ATTACHMENT|E:\\Ahus-Katalon-Git\\Reports\\Customer Portal\\20180604_122521\\1528097166700.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-04 12:55:34 - [TEST_CASE][FAILED] - Test Cases/Accept OFFERTFORFRAGAN popup: Test Cases/Accept OFFERTFORFRAGAN popup FAILED because (of) Unable to click on object 'Object Repository/OFFERTFORFRAGAN Popup/Okay Button From OFFERTFORFRAGAN Popup' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OFFERTFORFRAGAN Popup/Okay Button From OFFERTFORFRAGAN Popup' located by 'By.xpath: //a[(text() = 'Ok' or . = 'Ok')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Move to Compilation Page" classname="Test Cases/Move to Compilation Page" status="FAILED">
+         <failure type="FAILED" message="Unable to scroll to object 'Object Repository/Click on Visa Offertforfragan/Click on Button_Visa offertfrfrgan' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Click on Visa Offertforfragan/Click on Button_Visa offertfrfrgan' located by 'By.xpath: //button[@type = 'submit' and (text() = 'Visa offertförfrågan' or . = 'Visa offertförfrågan')]' not found)"/>
+         <system-out><![CDATA[2018-06-04 12:56:07 - [TEST_CASE][FAILED] - Test Cases/Move to Compilation Page: Test Cases/Move to Compilation Page FAILED because (of) Unable to scroll to object 'Object Repository/Click on Visa Offertforfragan/Click on Button_Visa offertfrfrgan' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Click on Visa Offertforfragan/Click on Button_Visa offertfrfrgan' located by 'By.xpath: //button[@type = 'submit' and (text() = 'Visa offertförfrågan' or . = 'Visa offertförfrågan')]' not found)
+
+2018-06-04 12:56:07 - [TEST_STEP][FAILED] - scrollToElement: Unable to scroll to object 'Object Repository/Click on Visa Offertforfragan/Click on Button_Visa offertfrfrgan' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Click on Visa Offertforfragan/Click on Button_Visa offertfrfrgan' located by 'By.xpath: //button[@type = 'submit' and (text() = 'Visa offertförfrågan' or . = 'Visa offertförfrågan')]' not found)
+
+2018-06-04 12:56:42 - [MESSAGE][FAILED] - Unable to scroll to object 'Object Repository/Click on Visa Offertforfragan/Click on Button_Visa offertfrfrgan' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Click on Visa Offertforfragan/Click on Button_Visa offertfrfrgan' located by 'By.xpath: //button[@type = 'submit' and (text() = 'Visa offertförfrågan' or . = 'Visa offertförfrågan')]' not found)
+[[ATTACHMENT|E:\\Ahus-Katalon-Git\\Reports\\Customer Portal\\20180604_122521\\1528097201146.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-04 12:56:07 - [TEST_CASE][FAILED] - Test Cases/Move to Compilation Page: Test Cases/Move to Compilation Page FAILED because (of) Unable to scroll to object 'Object Repository/Click on Visa Offertforfragan/Click on Button_Visa offertfrfrgan' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Click on Visa Offertforfragan/Click on Button_Visa offertfrfrgan' located by 'By.xpath: //button[@type = 'submit' and (text() = 'Visa offertförfrågan' or . = 'Visa offertförfrågan')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Visit Seller Portal" classname="Test Cases/Visit Seller Portal" status="PASSED">
+         <system-out><![CDATA[2018-06-04 12:56:42 - [TEST_CASE][PASSED] - Test Cases/Visit Seller Portal: Test Cases/Visit Seller Portal
+
+2018-06-04 12:56:42 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://ahusonline.utv.derome.se/salj-portal'
+
+2018-06-04 12:56:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-04 12:57:05 - [MESSAGE][PASSED] - Browser is opened with url: 'http://ahusonline.utv.derome.se/salj-portal'
+
+2018-06-04 12:57:05 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-04 12:57:05 - [MESSAGE][PASSED] - Current window maximized]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Seller Login" classname="Test Cases/Seller Login" status="PASSED">
+         <system-out><![CDATA[2018-06-04 12:57:05 - [TEST_CASE][PASSED] - Test Cases/Seller Login: Test Cases/Seller Login
+
+2018-06-04 12:57:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login as Seller/Seller Login - Username' is clicked on
+
+2018-06-04 12:57:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Login as Seller/Seller Login - Username' is clicked on
+
+2018-06-04 12:57:06 - [TEST_STEP][PASSED] - sendKeys: Keys 'neethuv' sent to object: 'Object Repository/Login as Seller/Seller Login - Username'
+
+2018-06-04 12:57:06 - [MESSAGE][PASSED] - Keys 'neethuv' sent to object: 'Object Repository/Login as Seller/Seller Login - Username'
+
+2018-06-04 12:57:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login as Seller/Seller Login - Password' is clicked on
+
+2018-06-04 12:57:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Login as Seller/Seller Login - Password' is clicked on
+
+2018-06-04 12:57:06 - [TEST_STEP][PASSED] - sendKeys: Keys 'Test12345' sent to object: 'Object Repository/Login as Seller/Seller Login - Password'
+
+2018-06-04 12:57:07 - [MESSAGE][PASSED] - Keys 'Test12345' sent to object: 'Object Repository/Login as Seller/Seller Login - Password'
+
+2018-06-04 12:57:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login as Seller/Login Button' is clicked on
+
+2018-06-04 12:57:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login as Seller/Login Button' is clicked on
+
+2018-06-04 12:57:14 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-06-04 12:57:14 - [MESSAGE][PASSED] - Wait for page load successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-04 12:54:20 - [TEST_SUITE][FAILED] - Customer Portal: Test Cases/Make Changes in Configuration - Customer FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-out>
+      <system-err><![CDATA[2018-06-04 12:54:20 - [TEST_SUITE][FAILED] - Customer Portal: Test Cases/Make Changes in Configuration - Customer FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+   </testsuite>
+</testsuites>

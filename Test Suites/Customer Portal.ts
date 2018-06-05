@@ -4,7 +4,7 @@
    <name>Customer Portal</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-05-14T17:15:52</lastRun>
+   <lastRun>2018-06-05T11:48:07</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -105,18 +105,18 @@
       <guid>f4b137fa-3774-47c5-aea9-3e28a4e03c70</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Move to Configuration Page</testCaseId>
+      <testCaseId>Test Cases/Move to Compilation Page</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>338a0061-93eb-4e68-8af7-ec6e42110bd5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Visit Seller Portal</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>1d978ede-e0f5-4e18-a53f-ecfeb80aadc9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Seller Login</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

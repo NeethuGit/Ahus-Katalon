@@ -21,3 +21,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Move to home page from logged in'))
 
+WebUI.waitForElementVisible(findTestObject('Element after login from start page'), 30)
+

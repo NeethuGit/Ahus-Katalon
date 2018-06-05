@@ -21,3 +21,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Start page elements/Select Municipality-start page'))
 
+WebUI.getText(findTestObject('Start page elements/Select Municipality-start page'))
+

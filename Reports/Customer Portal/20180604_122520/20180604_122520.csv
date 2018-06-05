@@ -1,0 +1,65 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Customer Portal,Firefox 56.0,,2018-06-04 12:49:03,2018-06-04 12:54:14,5m - 11.343s,FAILED
+,,,,,,
+Test Cases/Clear cache,Firefox 56.0,,2018-06-04 12:49:03,2018-06-04 12:49:04,0.483s,PASSED
+deleteAllCookies,Firefox 56.0,,2018-06-04 12:49:03,2018-06-04 12:49:04,0.279s,PASSED
+,,,,,,
+Test Cases/Start page,Firefox 56.0,,2018-06-04 12:49:04,2018-06-04 12:49:34,30.610s,PASSED
+openBrowser,Firefox 56.0,,2018-06-04 12:49:04,2018-06-04 12:49:15,10.870s,PASSED
+maximizeWindow,Firefox 56.0,,2018-06-04 12:49:15,2018-06-04 12:49:15,0.065s,PASSED
+navigateToUrl,Firefox 56.0,,2018-06-04 12:49:15,2018-06-04 12:49:34,19.149s,PASSED
+waitForElementVisible,Firefox 56.0,,2018-06-04 12:49:34,2018-06-04 12:49:34,0.131s,PASSED
+click,Firefox 56.0,,2018-06-04 12:49:34,2018-06-04 12:49:34,0.269s,PASSED
+,,,,,,
+Test Cases/Customer-Login,Firefox 56.0,,2018-06-04 12:49:34,2018-06-04 12:49:41,6.499s,PASSED
+click,Firefox 56.0,,2018-06-04 12:49:34,2018-06-04 12:49:36,1.891s,PASSED
+setText,Firefox 56.0,,2018-06-04 12:49:36,2018-06-04 12:49:40,3.876s,PASSED
+setText,Firefox 56.0,,2018-06-04 12:49:40,2018-06-04 12:49:41,0.370s,PASSED
+click,Firefox 56.0,,2018-06-04 12:49:41,2018-06-04 12:49:41,0.186s,PASSED
+waitForPageLoad,Firefox 56.0,,2018-06-04 12:49:41,2018-06-04 12:49:41,0.051s,PASSED
+,,,,,,
+Test Cases/Move to Start Page,Firefox 56.0,,2018-06-04 12:49:41,2018-06-04 12:50:13,32.449s,PASSED
+click,Firefox 56.0,,2018-06-04 12:49:41,2018-06-04 12:49:41,0.219s,PASSED
+waitForElementVisible,Firefox 56.0,,2018-06-04 12:49:41,2018-06-04 12:50:13,32.151s,PASSED
+,,,,,,
+Test Cases/Municipality dropdown field-start page,Firefox 56.0,,2018-06-04 12:50:13,2018-06-04 12:50:14,0.238s,PASSED
+click,Firefox 56.0,,2018-06-04 12:50:13,2018-06-04 12:50:14,0.162s,PASSED
+,,,,,,
+Test Cases/Select Municiplality from Start page,Firefox 56.0,,2018-06-04 12:50:14,2018-06-04 12:50:14,0.278s,PASSED
+click,Firefox 56.0,,2018-06-04 12:50:14,2018-06-04 12:50:14,0.200s,PASSED
+,,,,,,
+Test Cases/Select House From House Listing Page - HB,Firefox 56.0,,2018-06-04 12:50:14,2018-06-04 12:50:50,35.765s,PASSED
+click,Firefox 56.0,,2018-06-04 12:50:14,2018-06-04 12:50:50,35.698s,PASSED
+,,,,,,
+Test Cases/Make Changes in Configuration - Customer,Firefox 56.0,,2018-06-04 12:50:50,2018-06-04 12:50:54,3.978s,FAILED
+click,Firefox 56.0,,2018-06-04 12:50:50,2018-06-04 12:50:50,0.242s,PASSED
+click,Firefox 56.0,,2018-06-04 12:50:50,2018-06-04 12:50:54,3.643s,FAILED
+,,,,,,
+Test Cases/Save Configuration,Firefox 56.0,,2018-06-04 12:50:54,2018-06-04 12:51:27,33.849s,FAILED
+waitForPageLoad,Firefox 56.0,,2018-06-04 12:50:54,2018-06-04 12:50:54,0.028s,PASSED
+getText,Firefox 56.0,,2018-06-04 12:50:54,2018-06-04 12:50:54,0.064s,PASSED
+click,Firefox 56.0,,2018-06-04 12:50:54,2018-06-04 12:51:27,33.666s,FAILED
+,,,,,,
+Test Cases/Navigation to Offert Popup,Firefox 56.0,,2018-06-04 12:51:27,2018-06-04 12:52:01,33.820s,FAILED
+click,Firefox 56.0,,2018-06-04 12:51:27,2018-06-04 12:52:01,33.755s,FAILED
+,,,,,,
+Test Cases/Fill into Offert Form,Firefox 56.0,,2018-06-04 12:52:01,2018-06-04 12:52:35,34.082s,FAILED
+click,Firefox 56.0,,2018-06-04 12:52:01,2018-06-04 12:52:35,34.007s,FAILED
+,,,,,,
+Test Cases/Accept OFFERTFORFRAGAN popup,Firefox 56.0,,2018-06-04 12:52:35,2018-06-04 12:53:09,33.993s,FAILED
+click,Firefox 56.0,,2018-06-04 12:52:35,2018-06-04 12:53:09,33.827s,FAILED
+,,,,,,
+Test Cases/Move to Compilation Page,Firefox 56.0,,2018-06-04 12:53:09,2018-06-04 12:53:43,33.609s,FAILED
+scrollToElement,Firefox 56.0,,2018-06-04 12:53:09,2018-06-04 12:53:43,33.548s,FAILED
+,,,,,,
+Test Cases/Visit Seller Portal,Firefox 56.0,,2018-06-04 12:53:43,2018-06-04 12:54:02,18.945s,PASSED
+openBrowser,Firefox 56.0,,2018-06-04 12:53:43,2018-06-04 12:54:01,18.427s,PASSED
+maximizeWindow,Firefox 56.0,,2018-06-04 12:54:01,2018-06-04 12:54:02,0.449s,PASSED
+,,,,,,
+Test Cases/Seller Login,Firefox 56.0,,2018-06-04 12:54:02,2018-06-04 12:54:14,12.403s,PASSED
+click,Firefox 56.0,,2018-06-04 12:54:02,2018-06-04 12:54:02,0.411s,PASSED
+sendKeys,Firefox 56.0,,2018-06-04 12:54:02,2018-06-04 12:54:02,0.109s,PASSED
+click,Firefox 56.0,,2018-06-04 12:54:02,2018-06-04 12:54:03,0.782s,PASSED
+sendKeys,Firefox 56.0,,2018-06-04 12:54:03,2018-06-04 12:54:03,0.165s,PASSED
+click,Firefox 56.0,,2018-06-04 12:54:03,2018-06-04 12:54:14,10.822s,PASSED
+waitForPageLoad,Firefox 56.0,,2018-06-04 12:54:14,2018-06-04 12:54:14,0.037s,PASSED

@@ -25,7 +25,7 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('http://ahusonline.utv.derome.se/')
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForElementVisible(findTestObject('Element in start page'), 30)
 
 WebUI.click(findTestObject('Customer registration from HB/Close - strt page popup'))
 

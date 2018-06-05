@@ -21,11 +21,11 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Customer registration from HB/a_Login'))
 
-WebUI.setText(findTestObject('Login-username'), 'neethu@ahus.com')
+WebUI.setText(findTestObject('Login-username'), 'test@spara.com')
 
 WebUI.setText(findTestObject('Login-password'), '1234')
 
 WebUI.click(findTestObject('button_Logga in'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForPageLoad(45)
 

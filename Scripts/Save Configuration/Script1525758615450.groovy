@@ -19,7 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForPageLoad(45)
+
+WebUI.getText(findTestObject('Save Configuration/Get text From Save Configuration'))
 
 WebUI.click(findTestObject('Save Configuration/span_Spara'))
 
