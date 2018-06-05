@@ -4,7 +4,7 @@
    <name>Customer Portal</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-06-05T11:48:07</lastRun>
+   <lastRun>2018-06-05T17:18:53</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -103,6 +103,12 @@
    </testCaseLink>
    <testCaseLink>
       <guid>f4b137fa-3774-47c5-aea9-3e28a4e03c70</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Move to Mina Sidor Page</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7ef64cf9-0a91-4709-a023-1de4b6e49d2c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Move to Compilation Page</testCaseId>
