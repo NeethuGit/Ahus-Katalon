@@ -4,7 +4,7 @@
    <name>Customer Portal</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-06-05T17:18:53</lastRun>
+   <lastRun>2018-06-06T17:57:38</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -108,6 +108,12 @@
       <testCaseId>Test Cases/Move to Mina Sidor Page</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>bc5ff1c3-c661-44be-8890-37151ae57d7f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Get compilation Id</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>7ef64cf9-0a91-4709-a023-1de4b6e49d2c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -124,5 +130,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Seller Login</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f406e8d7-55e8-4a2b-af28-231cda889f3b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Select Configuration From Mina Kunder - Sales Portal</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
