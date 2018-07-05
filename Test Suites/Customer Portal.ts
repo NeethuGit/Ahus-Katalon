@@ -4,19 +4,13 @@
    <name>Customer Portal</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-06-06T17:57:38</lastRun>
+   <lastRun>2018-07-05T12:40:32</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>0ca6f9c9-8cda-49ff-8241-bdae62950e4a</testSuiteGuid>
-   <testCaseLink>
-      <guid>a0d4d3a0-2584-43b2-b87b-28302dd1584d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Clear cache</testCaseId>
-   </testCaseLink>
    <testCaseLink>
       <guid>dae667c8-702d-4c1d-bad0-7985a4903bf4</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -111,13 +105,7 @@
       <guid>bc5ff1c3-c661-44be-8890-37151ae57d7f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Get compilation Id</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>7ef64cf9-0a91-4709-a023-1de4b6e49d2c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Move to Compilation Page</testCaseId>
+      <testCaseId>Test Cases/Get compilation page-url</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>338a0061-93eb-4e68-8af7-ec6e42110bd5</guid>
@@ -136,5 +124,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Select Configuration From Mina Kunder - Sales Portal</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4c63a66b-9041-4460-a8c5-0bdb3010c42e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Close browser</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

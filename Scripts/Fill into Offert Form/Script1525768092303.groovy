@@ -19,6 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.waitForElementPresent(findTestObject('Fill Offert From/Construction Type RadioButton'), 60)
+
 WebUI.click(findTestObject('Fill Offert From/Construction Type RadioButton'))
 
 WebUI.click(findTestObject('Fill Offert From/Know Seller Before'))

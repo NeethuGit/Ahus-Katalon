@@ -4,7 +4,17 @@
    <name>Click on Button_Visa offertfrfrgan</name>
    <tag></tag>
    <elementGuidId>dcaeacce-817d-4d3e-b146-e1f9569fca40</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type = 'submit' and (text() = 'Visa offertförfrågan' or . = 'Visa offertförfrågan')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'submit' and (text() = 'Visa offertförfrågan' or . = 'Visa offertförfrågan')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

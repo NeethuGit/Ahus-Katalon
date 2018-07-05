@@ -19,7 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.waitForElementVisible(findTestObject('OFFERTFORFRAGAN Popup/Okay Button From OFFERTFORFRAGAN Popup'), 30)
+
 WebUI.click(findTestObject('OFFERTFORFRAGAN Popup/Okay Button From OFFERTFORFRAGAN Popup'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForPageLoad(15)
 

@@ -19,7 +19,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Start page elements/Select Municipality-start page'))
+WebUI.click(findTestObject('Start page elements/Municipality select field'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Start page elements/Select Municipality-start page'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.getText(findTestObject('Start page elements/Select Municipality-start page'))
+
+WebUI.waitForPageLoad(15)
 

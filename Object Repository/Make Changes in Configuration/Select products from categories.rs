@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//img[@ng-reflect-src='/MediaBinaryLoader.axd?MediaArchive_FileID=4bc77aaf-fed6-44df-b590-c252ad9599ef&amp;MediaArchive_Format=jpg&amp;FileName=Fargruta_red_ram_100x100.png']</value>
+         <value>/html/body/div[2]/main-app/houseconfigurator-app/div/div[2]/nav/div[2]/menuroot/div/menuitem/ul[1]/li[2]/menuitem/ul[2]/li[1]/div[2]/div[2]/product/div/div/div/div[2]/span/displayarticle/a/img</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

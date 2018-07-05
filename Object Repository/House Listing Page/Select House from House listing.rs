@@ -4,7 +4,18 @@
    <name>Select House from House listing</name>
    <tag></tag>
    <elementGuidId>bce8394a-32f9-43a4-bc78-98f7cd4280e1</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'submit']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value> /html/body/div[2]/main/div/ul/li[1]/div/div[3]/div[2]/div[1]/form/input[4]
+</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

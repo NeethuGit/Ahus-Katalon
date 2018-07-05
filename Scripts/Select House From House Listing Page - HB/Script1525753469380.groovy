@@ -19,5 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.scrollToElement(findTestObject('House Listing Page/Select House from House listing'), 40)
+
 WebUI.click(findTestObject('House Listing Page/Select House from House listing'))
 

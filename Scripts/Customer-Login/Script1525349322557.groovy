@@ -19,13 +19,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Customer registration from HB/a_Login'))
+WebUI.click(findTestObject('HB_Login/Customer login'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForPageLoad(15)
+
+WebUI.scrollToElement(findTestObject('Login/Login Button - HB'), 15)
 
 WebUI.setText(findTestObject('Login-username'), 'test@spara.com')
 
 WebUI.setText(findTestObject('Login-password'), '1234')
 
-WebUI.click(findTestObject('button_Logga in'))
+WebUI.delay(5)
 
-WebUI.waitForPageLoad(45)
+WebUI.focus(findTestObject('Login/Login Button - HB'))
+
+WebUI.click(findTestObject('Login/Login Button - HB'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementPresent(findTestObject('Login/Element verification from loggedin page'), 15)
 

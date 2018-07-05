@@ -4,7 +4,17 @@
    <name>Close - strt page popup</name>
    <tag></tag>
    <elementGuidId>5406a4ea-1774-4186-b41e-1568567ce19b</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = 'http://ahusonline.utv.derome.se' and (text() = 'CLOSE' or . = 'CLOSE')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@class=&quot;popup-detailed__link&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

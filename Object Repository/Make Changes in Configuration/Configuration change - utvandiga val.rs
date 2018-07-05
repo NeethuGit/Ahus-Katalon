@@ -6,12 +6,12 @@
    <elementGuidId>b121e0aa-6996-4e45-9c36-1bdfcfbf084a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[contains(.,'         Vindskivor och foder              ')]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//span[@href = '#' and (text() = '         Vindskivor och foder              ' or . = '         Vindskivor och foder              ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/main-app/houseconfigurator-app/div/div[2]/nav/div[2]/menuroot/div/menuitem/ul[1]/li[2]/menuitem/ul[2]/li[1]/div[1]/menusection/div/span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
