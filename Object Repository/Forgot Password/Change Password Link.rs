@@ -4,7 +4,17 @@
    <name>Change Password Link</name>
    <tag></tag>
    <elementGuidId>e028a263-b50c-4a88-ad62-0ebb562b7030</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class=&quot;derome-formitem forgot-password-fromlogin&quot;]/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[(text() = 'Har du glömt ditt lösenord?' or . = 'Har du glömt ditt lösenord?')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

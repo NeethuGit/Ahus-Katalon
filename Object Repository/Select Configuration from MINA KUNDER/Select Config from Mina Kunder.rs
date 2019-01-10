@@ -6,12 +6,11 @@
    <elementGuidId>7c837a19-7355-475c-8a67-85e46b135612</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*[@class=&quot;name bold&quot;][contains(text(),'test customer new')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a//span[@class=&quot;objectdetails&quot;]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

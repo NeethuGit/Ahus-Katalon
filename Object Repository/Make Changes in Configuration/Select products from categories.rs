@@ -7,10 +7,15 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[2]/main-app/houseconfigurator-app/div/div[2]/nav/div[2]/menuroot/div/menuitem/ul[1]/li[2]/menuitem/ul[2]/li[1]/div[2]/div[2]/product/div/div/div/div[2]/span/displayarticle/a/img</value>
+         <value>//a[@class=&quot;article-image-wrap&quot;][@data-articlenumber=&quot;DUF22163004_H081&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

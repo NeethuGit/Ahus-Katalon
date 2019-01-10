@@ -6,12 +6,12 @@
    <elementGuidId>b121e0aa-6996-4e45-9c36-1bdfcfbf084a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//span[@href = '#' and (text() = '         Vindskivor och foder              ' or . = '         Vindskivor och foder              ')]</value>
+         <key>XPATH</key>
+         <value>//*[@class=&quot;sectionrow sectionrow--fdd66d01-ce57-4ef1-a3c8-5efcf444ce69  &quot;]/span</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[2]/main-app/houseconfigurator-app/div/div[2]/nav/div[2]/menuroot/div/menuitem/ul[1]/li[2]/menuitem/ul[2]/li[1]/div[1]/menusection/div/span[1]</value>
+         <key>BASIC</key>
+         <value>//span[@href = '#' and (text() = '         Vindskivor och foder              ' or . = '         Vindskivor och foder              ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

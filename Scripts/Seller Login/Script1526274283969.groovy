@@ -25,7 +25,7 @@ WebUI.sendKeys(findTestObject('Login as Seller/Seller Login - Username'), 'neeth
 
 WebUI.click(findTestObject('Login as Seller/Seller Login - Password'))
 
-WebUI.sendKeys(findTestObject('Login as Seller/Seller Login - Password'), 'Test@12345')
+WebUI.sendKeys(findTestObject('Login as Seller/Seller Login - Password'), '12345')
 
 WebUI.click(findTestObject('Login as Seller/Login Button'))
 

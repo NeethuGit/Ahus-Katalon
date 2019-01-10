@@ -6,12 +6,12 @@
    <elementGuidId>dcaeacce-817d-4d3e-b146-e1f9569fca40</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//button[@type = 'submit' and (text() = 'Visa offertförfrågan' or . = 'Visa offertförfrågan')]</value>
+         <key>XPATH</key>
+         <value>/html/body/div[3]/main/div/div[1]/div[4]/ul/li[1]/div/div[3]/div[3]/div[2]/form/div/input</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@class='infoblock__button infoblock__button--rosybrown infoblock__button--wide']</value>
+         <key>BASIC</key>
+         <value>//button[@type = 'submit' and (text() = 'Visa offertförfrågan' or . = 'Visa offertförfrågan')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

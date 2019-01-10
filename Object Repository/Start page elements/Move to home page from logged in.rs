@@ -15,7 +15,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@class='menu-item menu-item--level-0 menu-item--type-startpage selected-parent']</value>
+         <value>//a[@class=&quot;ahus-logo ahus-logo--cms&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

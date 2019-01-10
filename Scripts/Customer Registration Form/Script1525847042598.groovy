@@ -27,18 +27,9 @@ WebUI.setText(findTestObject('Customer registration from HB/input_lastName'), 'U
 
 WebUI.focus(findTestObject('Customer registration from HB/div_Epostadress'))
 
-//WebUI.sendKeys(findTestObject('Customer registration from HB/div_Epostadress'), 'test@test.com')
-for (int i = 1; i > 0; i++) {
-    String email1 = 'test+'
+String Mail = CustomKeywords.'randomEmail.getEmail'('testing', 'testing.test')
 
-    String email2 = '@gmail.com'
-
-    String newEmail = (email1 + Integer.toString(i)) + email2
-
-    System.out.println(newEmail)
-
-    WebUI.setText(findTestObject('div_Epostadress'), newEmail)
-}
+WebUI.sendKeys(findTestObject('Page_Login/input_email_create'), Mail)
 
 WebUI.setText(findTestObject('Customer registration from HB/input_password'), 'Test1234')
 

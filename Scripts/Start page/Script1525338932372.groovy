@@ -19,15 +19,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+not_run: WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
+not_run: WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('http://ahusonline.utv.derome.se/')
+not_run: WebUI.navigateToUrl('http://ahusonline.utv.derome.se/')
 
-WebUI.waitForPageLoad(30)
+not_run: WebUI.scrollToElement(findTestObject('Customer registration from HB/Close - strt page popup'), 0)
 
-WebUI.click(findTestObject('Customer registration from HB/Close - strt page popup'))
+WebUI.click(findTestObject('Click on Logo/Click on Logo'))
 
-WebUI.waitForElementVisible(findTestObject('Element in start page'), 15)
+WebUI.waitForPageLoad(0)
+
+WebUI.click(findTestObject('Customer registration from HB/Close - strt page popup'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForPageLoad(0)
+
+WebUI.waitForElementPresent(findTestObject('Logout fromHB/Logout from HB'), 0)
+
+not_run: WebUI.click(findTestObject('Element in start page'))
 

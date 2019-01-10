@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(@href,&quot;/logga-in&quot;)]</value>
+         <value>//a[contains(.,'Login')]</value>
       </entry>
       <entry>
          <key>BASIC</key>

@@ -19,9 +19,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.waitForElementClickable(findTestObject('Save Configuration/span_Spara'), 3)
+
+WebUI.waitForElementClickable(findTestObject('Click on fa total sammanstallning/fa total sammanstallning'), 1)
+
+WebUI.click(findTestObject('Fill Offert From/Construction Type RadioButton'))
+
 WebUI.click(findTestObject('Fill Offert From/Know Seller Before'))
 
-WebUI.selectOptionByLabel(findTestObject('Fill Offert From/Click on Seller selection dropdown Field'), 'neethu v', false)
+WebUI.click(findTestObject('Fill Offert From/Click on Seller selection dropdown Field'))
+
+WebUI.selectOptionByLabel(findTestObject('Fill Offert From/Select Seller'), 'neethu v', true)
 
 WebUI.click(findTestObject('Fill Offert From/Send Offer to Seller - Button'))
 

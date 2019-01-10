@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@class='popup-detailed__link']</value>
+         <value>//*[@class=&quot;fancybox-button fancybox-close-small&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>

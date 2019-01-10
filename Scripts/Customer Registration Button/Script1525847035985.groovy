@@ -19,6 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.click(findTestObject('Ahus Icon/Ahus icon'))
+
 WebUI.click(findTestObject('Element in start page'))
 
 WebUI.waitForElementPresent(findTestObject('Customer registration from HB/a_Registrera dig'), 30)

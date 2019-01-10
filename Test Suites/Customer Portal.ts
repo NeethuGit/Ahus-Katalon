@@ -12,6 +12,12 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>0ca6f9c9-8cda-49ff-8241-bdae62950e4a</testSuiteGuid>
    <testCaseLink>
+      <guid>5f3771fe-5273-43b9-88c2-b3c9905a8751</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Customer-Login</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>dae667c8-702d-4c1d-bad0-7985a4903bf4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -20,26 +26,20 @@
    <testCaseLink>
       <guid>1a36d77f-f2f5-4175-8363-5068be42a655</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Forgot Password</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>98a1a103-af9e-4394-aa87-000131106a0e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Customer Registration Button</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c490dabc-e99e-406b-ad69-e317fb1037a9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Customer Registration Form</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>5f3771fe-5273-43b9-88c2-b3c9905a8751</guid>
-      <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Customer-Login</testCaseId>
+      <testCaseId>Test Cases/Customer Registration Form</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9231f260-d3ed-4d0c-ac2e-05bd1322e8dc</guid>
@@ -50,19 +50,19 @@
    <testCaseLink>
       <guid>899e8c15-aa59-496f-ad77-47265ac90fa5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Municipality dropdown field-start page</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>436dc18e-14a6-4c29-b628-24a0a1e72f06</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Select Municiplality from Start page</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9a6e1998-517d-4824-a90d-68e981ebcc30</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Select House From House Listing Page - HB</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -74,37 +74,13 @@
    <testCaseLink>
       <guid>7bbb3d0c-086d-440f-bb04-805d6fb871b2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Save Configuration</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>618eb852-5374-414c-ab82-d7b38ed51502</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/To My Pages from Configuration Page</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>464abd6f-6929-47a5-be29-249f089d8981</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Navigation to Offert Popup</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>6708f797-57c7-478c-b894-9c8dee9e1140</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Fill into Offert Form</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>edfa7e36-4d7a-4f6e-bb8a-01fd2ef1fc6e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Accept OFFERTFORFRAGAN popup</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f4b137fa-3774-47c5-aea9-3e28a4e03c70</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Move to Mina Sidor Page</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -114,27 +90,33 @@
       <testCaseId>Test Cases/Get compilation page-url</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>338a0061-93eb-4e68-8af7-ec6e42110bd5</guid>
+      <guid>2af7984a-8372-4d47-a8bb-2f466f51e38a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
+      <testCaseId>Test Cases/Logout from HB</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>338a0061-93eb-4e68-8af7-ec6e42110bd5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Visit Seller Portal</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>1d978ede-e0f5-4e18-a53f-ecfeb80aadc9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Seller Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f406e8d7-55e8-4a2b-af28-231cda889f3b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Select Configuration From Mina Kunder - Sales Portal</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>4c63a66b-9041-4460-a8c5-0bdb3010c42e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Close browser</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

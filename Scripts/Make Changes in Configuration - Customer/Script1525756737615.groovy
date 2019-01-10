@@ -19,9 +19,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Make Changes in Configuration/Configuration change - utvandiga val'), FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.refresh()
 
-WebUI.waitForElementClickable(findTestObject('Make Changes in Configuration/Select products from categories'), 50)
+not_run: WebUI.waitForElementVisible(findTestObject('Make Changes in Configuration/Check the element present - annerberg'), 
+    0)
 
-WebUI.getAttribute(findTestObject('Make Changes in Configuration/Select products from categories'), 'src')
+not_run: WebUI.click(findTestObject('Make Changes in Configuration/Configuration change - utvandiga val'), FailureHandling.STOP_ON_FAILURE)
+
+not_run: WebUI.waitForElementPresent(findTestObject('Make Changes in Configuration/Select products from categories'), 0)
+
+not_run: WebUI.waitForElementClickable(findTestObject('Make Changes in Configuration/Select products from categories'), 
+    0)
+
+not_run: WebUI.getAttribute(findTestObject('Make Changes in Configuration/Select products from categories'), 'src')
 

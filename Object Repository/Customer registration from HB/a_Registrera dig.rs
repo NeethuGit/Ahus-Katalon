@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//form[@class=&quot;js-account-form&quot;]//a[@class=&quot;infoblock__button infoblock__button--wide&quot;]</value>
+         <value> /html/body/div[3]/main/div[3]/article/div/div/div/div/div[4]/form/div[2]/div[2]/div[5]/div[2]/a</value>
       </entry>
       <entry>
          <key>BASIC</key>

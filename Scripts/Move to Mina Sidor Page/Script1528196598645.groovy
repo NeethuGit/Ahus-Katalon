@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('Click on Oversikt or Be om Offertfrom Compilation page/Click on Oversikt or Be om offerforfragan'), 50)
+WebUI.click(findTestObject('Move to Mina Sidor Page/MOve to mina sidor from configuratio page'))
 
-WebUI.click(findTestObject('Click on Oversikt or Be om Offertfrom Compilation page/Click on Oversikt or Be om offerforfragan'))
+not_run: WebUI.navigateToUrl('http://ahusonline.utv.derome.se/mina-sidor')
 

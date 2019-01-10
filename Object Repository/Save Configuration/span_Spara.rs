@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[contains(.,'Spara')]</value>
+         <value>//a[@data-test-id=&quot;SaveButton&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>

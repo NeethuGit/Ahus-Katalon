@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id=&quot;TalkedBeforeToSeller&quot;]</value>
+         <value>//*[@id=&quot;myModal&quot;]/div/div/div/div[2]/div[2]/div[6]/ul/li[1]/label/span</value>
       </entry>
       <entry>
          <key>BASIC</key>

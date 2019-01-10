@@ -19,17 +19,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Element in start page'), FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.click(findTestObject('Element in start page'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForPageLoad(15)
+WebUI.openBrowser('')
 
-WebUI.scrollToElement(findTestObject('Login/Login Button - HB'), 15)
+WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Login-username'), 'test@spara.com')
+WebUI.navigateToUrl('http://ahusonline.utv.derome.se/logga-in')
 
-WebUI.setText(findTestObject('Login-password'), '1234')
+WebUI.waitForPageLoad(0)
+
+WebUI.waitForElementPresent(findTestObject('Login/Login Button - HB'), 0)
+
+WebUI.sendKeys(findTestObject('Login-username'), 'test@customer.com')
+
+WebUI.sendKeys(findTestObject('Password-login page'), '1234')
 
 WebUI.click(findTestObject('Login/Login Button - HB'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('Login/Element verification from loggedin page'), 15)
+WebUI.waitForElementPresent(findTestObject('Logout fromHB/Logout from HB'), 0)
 

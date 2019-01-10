@@ -19,13 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForPageLoad(15)
-
-WebUI.openBrowser('')
-
-WebUI.maximizeWindow()
-
 WebUI.navigateToUrl('http://ahusonline.utv.derome.se/salj-portal')
 
-WebUI.waitForPageLoad(15)
+WebUI.waitForPageLoad(0)
 

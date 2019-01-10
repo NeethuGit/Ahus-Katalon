@@ -19,5 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Start page elements/Move to home page from logged in'), FailureHandling.STOP_ON_FAILURE)
+WebUI.navigateToUrl('http://ahusonline.utv.derome.se/', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementPresent(findTestObject('Move to start page/Move to start page'), 5)
 

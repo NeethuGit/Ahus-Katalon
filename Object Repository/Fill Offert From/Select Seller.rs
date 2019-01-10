@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//select[@ng-reflect-model='neethu v']</value>
+         <value>//*[@id=&quot;myModal&quot;]/div/div/div/div[2]/div[2]/div[7]/select</value>
       </entry>
       <entry>
          <key>BASIC</key>

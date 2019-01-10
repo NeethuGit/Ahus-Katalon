@@ -4,7 +4,17 @@
    <name>Send Offer to Seller - Button</name>
    <tag></tag>
    <elementGuidId>972033a4-1459-4b63-a869-50e1356d5c31</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;myModal&quot;]/div/div/div/div[2]/div[3]/div[2]/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Skicka nu' or . = 'Skicka nu')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

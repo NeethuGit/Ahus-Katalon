@@ -21,11 +21,15 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Element in start page'))
 
+WebUI.waitForElementClickable(findTestObject('Element in start page'), 25)
+
+WebUI.waitForPageLoad(25)
+
 WebUI.click(findTestObject('Forgot Password/Change Password Link'))
 
 WebUI.click(findTestObject('Forgot Password/Email field'))
 
-WebUI.setText(findTestObject('Forgot Password/Email field'), 'vneethu199@gmail.com')
+WebUI.setText(findTestObject('Forgot Password/Email field'), 'neethu.v@bridge-global.com')
 
 WebUI.click(findTestObject('Forgot Password/Change Password button'))
 

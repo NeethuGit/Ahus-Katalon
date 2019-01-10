@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;customer-agreement-login&quot;]/div[1]/form/div[2]/div[2]/div/button</value>
+         <value>//*[@class=&quot;ahus-btn ahus-btn--red ahus-btn--wide&quot;][@type=&quot;submit&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
