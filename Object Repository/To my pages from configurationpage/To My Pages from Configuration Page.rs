@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Element in start page</name>
+   <name>To My Pages from Configuration Page</name>
    <tag></tag>
-   <elementGuidId>52fe2395-eb7b-4daa-9af9-2c7d8f48be62</elementGuidId>
+   <elementGuidId>66d8921c-261c-47f3-892f-fe3c41d435cb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//a[contains(@href,&quot;/logga-in&quot;)]</value>
+         <value>//a[@class=&quot;infoblock__button infoblock__button--wide infoblock__button--rosybrown&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>

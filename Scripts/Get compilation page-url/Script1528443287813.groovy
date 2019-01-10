@@ -19,9 +19,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Fill Offert From/Know Seller Before'))
-
-WebUI.selectOptionByLabel(findTestObject('Fill Offert From/Click on Seller selection dropdown Field'), 'neethu v', false)
-
-WebUI.click(findTestObject('Fill Offert From/Send Offer to Seller - Button'))
+WebUI.getUrl()
 

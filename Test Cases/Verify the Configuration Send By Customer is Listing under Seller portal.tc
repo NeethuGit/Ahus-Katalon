@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify the Configuration Send By Customer is Listing under Seller portal</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9ff59f3d-880d-4fcb-b693-7c216a2f419a</testCaseGuid>
+</TestCaseEntity>

@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Customer registration from HB/a_Login'))
+WebUI.click(findTestObject('Element in start page'))
 
 WebUI.click(findTestObject('Forgot Password/Change Password Link'))
 

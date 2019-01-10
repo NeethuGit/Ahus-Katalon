@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Element in start page</name>
+   <name>Element verification from loggedin page</name>
    <tag></tag>
-   <elementGuidId>52fe2395-eb7b-4daa-9af9-2c7d8f48be62</elementGuidId>
+   <elementGuidId>231fdb2f-b54b-44b3-ae77-f2a8119a8fe9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(@href,&quot;/logga-in&quot;)]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
+         <value>/html/body/div[2]/aside/nav/div/div/div[3]/form/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

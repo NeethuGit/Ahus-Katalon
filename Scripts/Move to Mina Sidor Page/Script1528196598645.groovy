@@ -19,9 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Fill Offert From/Know Seller Before'))
+WebUI.waitForElementVisible(findTestObject('Click on Oversikt or Be om Offertfrom Compilation page/Click on Oversikt or Be om offerforfragan'), 50)
 
-WebUI.selectOptionByLabel(findTestObject('Fill Offert From/Click on Seller selection dropdown Field'), 'neethu v', false)
-
-WebUI.click(findTestObject('Fill Offert From/Send Offer to Seller - Button'))
+WebUI.click(findTestObject('Click on Oversikt or Be om Offertfrom Compilation page/Click on Oversikt or Be om offerforfragan'))
 

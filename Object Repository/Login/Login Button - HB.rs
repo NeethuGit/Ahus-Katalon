@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Element in start page</name>
+   <name>Login Button - HB</name>
    <tag></tag>
-   <elementGuidId>52fe2395-eb7b-4daa-9af9-2c7d8f48be62</elementGuidId>
+   <elementGuidId>bcbc16e2-ac46-43ff-a440-b8c6fa99a9a2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>BASIC</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(@href,&quot;/logga-in&quot;)]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
+         <value>//*[@id=&quot;customer-agreement-login&quot;]/div[1]/form/div[2]/div[2]/div/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

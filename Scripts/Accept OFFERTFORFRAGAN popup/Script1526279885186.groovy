@@ -23,5 +23,3 @@ WebUI.waitForElementVisible(findTestObject('OFFERTFORFRAGAN Popup/Okay Button Fr
 
 WebUI.click(findTestObject('OFFERTFORFRAGAN Popup/Okay Button From OFFERTFORFRAGAN Popup'))
 
-WebUI.waitForPageLoad(15)
-

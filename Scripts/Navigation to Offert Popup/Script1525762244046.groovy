@@ -19,7 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('Move to Offert Popup/Offert Button Click - Offert Popup'), 60)
+WebUI.waitForElementVisible(findTestObject('Click on Oversikt or Be om Offertfrom Compilation page/Click on Oversikt or Be om offerforfragan'), 
+    60)
 
-WebUI.click(findTestObject('Move to Offert Popup/Offert Button Click - Offert Popup'))
+WebUI.click(findTestObject('Click on Oversikt or Be om Offertfrom Compilation page/Click on Oversikt or Be om offerforfragan'))
 

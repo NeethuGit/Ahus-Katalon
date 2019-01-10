@@ -21,15 +21,13 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.deleteAllCookies()
-
 WebUI.maximizeWindow()
-
-WebUI.waitForPageLoad(15)
 
 WebUI.navigateToUrl('http://ahusonline.utv.derome.se/')
 
-WebUI.click(findTestObject('Customer registration from HB/Close - strt page popup'), FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForPageLoad(30)
+
+WebUI.click(findTestObject('Customer registration from HB/Close - strt page popup'))
 
 WebUI.waitForElementVisible(findTestObject('Element in start page'), 15)
 

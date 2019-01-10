@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Element in start page</name>
+   <name>Spara continue button</name>
    <tag></tag>
-   <elementGuidId>52fe2395-eb7b-4daa-9af9-2c7d8f48be62</elementGuidId>
+   <elementGuidId>67b7efba-796e-4e3b-9844-a5f102b2a462</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(@href,&quot;/logga-in&quot;)]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
+         <value>//a[@class=&quot;infoblock__button infoblock__button--wide infoblock__button--rosybrown&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
